@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    font-weight: 0;
+}
+/* #32B9CD azul*/
+/* #528FC4 azul claro */
+/* #E3B062 laranja*/
+/* #DB7093 rosa */
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32B9CD;
+}
+
+.header .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container h1{
+    color: #32B9CD;
+}
+
+.header .container ul{
+    color: #E3B062;
+    width: 270px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a{
+    text-decoration: none;
+    color: #E3B062;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+.banner{
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+}
+
+.banner .container p{
+    font-size: 36px;
+    color: white;
+    width: 280px;
+}
+
+.social{
+    background-color: #e5e5e5;
+    display: flex;
+}
+
+.social .container{
+    justify-content: center;
+}
+
+.box img{
+    width: 100px;
+}
+
+.social .container .boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p{
+    text-align: center;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+}
+
+.footer .container .version{
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.login{
+    background-color: #000;
+    height: 500px;
+}
+
+
+.card{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    color: #DB7093;
+    padding: 25px 0;
+}
+
+.card h2{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    height: 90%;
+    width: 95%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.formulario span{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.formulario input{
+    border: 2px solid #528FC4;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+
+.login .container{
+    justify-content: center;
+    height: 300px;
+    padding: 100px 0 100px 0;
+}
+
+.botao{
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 504;
+    font-size: 19px;
+    color: #fff;
+    background-color: #E1374E;
+    width: 120px;
+    height: 50px;
+    align-self: center;
+}
+
+.campo{
+    align-self: center;
+}
+
+
+
