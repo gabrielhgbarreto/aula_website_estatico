@@ -93,9 +93,15 @@ body{
 }
 
 .footer{
-    height: 60px;
+    display: flex;
+    align-items: center;
+    height: 100px;
     width: 100%;
     background-color: blue;
+}
+
+.footer .container{
+    flex-direction: column;
 }
 
 .footer .container .version{
@@ -172,11 +178,22 @@ body{
     width: 120px;
     height: 50px;
     align-self: center;
+    margin-top: 10px;
 }
 
 .campo{
+    display: flex;
     align-self: center;
+    flex-direction: column;
 }
 
+.cadastro {
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: 700px;
+}
 
-
+.cadastro .container{
+    justify-content: center;
+    height: 500px;
+    padding: 100px 0 100px 0;
+}   
